@@ -93,6 +93,7 @@ def run_episode(e, environment):
             print("Episode {0} finished after {1} steps".format(e, steps))
             episode_durations.append(steps)
             break
+            
 #%% TRAIN THE MODEL
 def learn():
     if len(memory) < BATCH_SIZE:
